@@ -4,7 +4,7 @@ start_time = time.time()
 stop = ''
 
 job = input('Enter job: ')
-print('Enter s to stop: ')
+print('Time Started.\nEnter s to stop.')
 
 # while stop.lower() != 's':
     # stop = input()/
@@ -13,6 +13,9 @@ num = int(input())
 
 if num >= 3600:
      num /= 60
+     num /= 60
+
+else:
      num /= 60
 
 print(round(num, 2))
